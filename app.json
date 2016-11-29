@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Parking_record/Parking_record",
+    "pages/Time_fee/Time_fee",
+    "pages/Time_fee/time_fee/succeed_pay/succeed_pay"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "萌芽停车",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#000",
+    "seclectedColor":"#56abe4",
+    "backgroudColor":"#fff",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/index10.png",
+      "selectedIconPath":"images/index10.png"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"日志",
+      "iconPath":"images/index12.png",
+      "selectedIconPath":"images/index12.png"
+    },{
+      "pagePath":"pages/test/test",
+      "text":"超神页面",
+      "iconPath":"images/index11.png",
+      "selectedIconPath":"images/index11.png"
+    }]
+  },
+  "debug":true
+}
