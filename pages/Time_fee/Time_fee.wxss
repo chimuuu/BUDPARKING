@@ -1,0 +1,31 @@
+.time_fee_container {
+  height: 100%;
+  display: flex;
+  font-size: 25px;
+  color:orangered;
+  background: rgba(255,255,25,.5);
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  box-sizing: border-box;
+}
+.time_record {
+  height: 100%;
+  display: flex;
+  font-size: 18px;
+  color:blue;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  box-sizing: border-box;
+}  
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

@@ -1,0 +1,28 @@
+.about_userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_Bud_parking {
+  display: flex; 
+  width: 180rpx;
+  height: 250rpx;
+  padding: 0rpx;
+  border-radius: 30%;  
+}
+.bg_container {
+    background: #eee;
+    background-size: cover;
+    background-image: url(../images/bg.png);
+}
+.container{
+  height: 100%;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+}

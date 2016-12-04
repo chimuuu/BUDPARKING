@@ -1,0 +1,51 @@
+/**index.wxss**/
+
+page {
+  display: block;
+  min-height: 100%;
+  background-color:white;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+.container_index {
+  /*background: rgba(255,255,25,.5);*/
+  height: 100%;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.Bud_parking {
+  background: rgba(255,255,0,.5);
+  display: flex; 
+  width: 260rpx;
+  height: 400rpx;
+  /*margin: 0rpx;*/
+  border-radius: 10%;  
+}
+
+.container{  
+  height: 650px;
+}
+.slide-image{
+  padding: 0rpx ;
+  display: felx;
+  height:240rpx;
+  width:100%;  
+}
+.button-hover{
+  background-color: blue;
+}
+
