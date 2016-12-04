@@ -72,7 +72,8 @@ Page({
               success: function (res) {
                 console.log(res.data[0].symbol[0].data)
                 wx.navigateTo({
-                  url: '../Time_fee/Time_fee',
+                  //携带二维码解析结果参数
+                  url: '../Time_fee/Time_fee?qrcode='+res.data[0].symbol[0].data,
                 })
               }
             })

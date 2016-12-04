@@ -1,7 +1,7 @@
 
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duartion="{{duration}}">
   <block wx:for="{{imgUrls}}">
-    <swiper-item>
+      <swiper-item>
       <image src="{{item}}" class="slide-image" />
       </swiper-item>
     </block>
@@ -10,14 +10,14 @@
 <view class="userinfo">
   <image class="Bud_parking" src="../../images/logo.png" ></image>
 </view>
-<view class="userinfo">
-  <view class="container_index">
-    <view bindtap="choose_image" >
-      <button type="primary" hover-class="button-hover" >我要停车</button>
-  <view class="container_index">
-    
-    <view bindtap="Parking_record">
-      <button type="warn">我的记录</button>
 
+<view class="userinfo">
+      <view bindtap="choose_image" >
+      <button type="primary" hover-class="button-hover" >扫码停车</button>
+      </view>
+      
+      <view bindtap="Parking_record">
+      <button type="warn">我的记录</button>
+      </view>
   </view>
 
