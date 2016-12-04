@@ -1,7 +1,8 @@
-<view class="container">
+<view class="record_container">
 <text>您的停车记录如下：</text>
-<text>.................</text>
-<text>................</text>
-<text>................</text>
-<text>................</text>
+
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
 </view>
