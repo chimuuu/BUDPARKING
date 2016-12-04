@@ -1,38 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/Parking_record/Parking_record",
+    "pages/about/about",
     "pages/Time_fee/Time_fee",
-    "pages/Time_fee/time_fee/succeed_pay/succeed_pay"
+    "pages/Time_fee/succeed_pay/succeed_pay",
+    "pages/Parking_record/Parking_record"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#000",
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00BB00",
     "navigationBarTitleText": "萌芽停车",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white",
+     "backgroundColor":"#eeeeee"
   },
-  "tabBar":{
-    "color":"#000",
-    "seclectedColor":"#56abe4",
-    "backgroudColor":"#fff",
-    "borderStyle":"white",
-    "list":[{
-      "pagePath":"pages/index/index",
-      "text":"首页",
-      "iconPath":"images/index10.png",
-      "selectedIconPath":"images/index10.png"
-    },{
-      "pagePath":"pages/logs/logs",
-      "text":"日志",
-      "iconPath":"images/index12.png",
-      "selectedIconPath":"images/index12.png"
-    },{
-      "pagePath":"pages/test/test",
-      "text":"超神页面",
-      "iconPath":"images/index11.png",
-      "selectedIconPath":"images/index11.png"
-    }]
+  "tabBar": {
+    "color": "#464a56",
+    "seclectedColor": "#6595e9",
+    "backgroudColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar1.png",
+        "selectedIconPath": "images/tabbar1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/tabbar2.png",
+        "iconSize": "30",
+        "selectedIconPath": "images/tabbar2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于萌芽停车",
+        "iconPath": "images/tabbar3.png",
+        "selectedIconPath": "images/tabbar3.png"
+      }
+    ]
   },
-  "debug":true
+  "debug": true
 }
