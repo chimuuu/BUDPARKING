@@ -19,12 +19,8 @@ function formatNumber(n) {
   	return n[1] ? n : '0' + n
 	}
 
-// 记录下停车开始时间
-function start_time_record(that){
-	that.setData({
-		start_time:formatTime(new Date()),
-	});
-}
+
+
 /** 
 计时功能模块
 //初始化开始时间为0毫秒
@@ -81,13 +77,19 @@ Page({
 		Timer: '',
 		start_time:'',
 		total_cost:'',
-		qrcode:'',
+		qrcode:'初始二维码',
 	},
-	onLoad: function() {
+	onLoad: function(options) {
 		timer_cost(this);
-		start_time_record(this);
+		this.setData({
+			// 记录下停车开始时间	
+			start_time:formatTime(new Date()),
+			//二维码扫描结果
+			qrcode:options.qrcode,
+		})
 	},
 	weixin_pay:function(){
+		//保留当前页面
     wx.navigateTo({
       url: 'succeed_pay/succeed_pay' 
     })

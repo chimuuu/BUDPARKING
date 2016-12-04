@@ -10,11 +10,7 @@
 
 <text  class="time_record">{{start_time}}</text>
 
-
- 
-    <!--<button type="primary" loading=" Ture" bindtap="weixin_pay">微信支付</button>  -->  
-    <!--<button type="primary" plain=" Ture" bindtap="weixin_pay">微信支付</button>  -->
-  <button type="primary"  bindtap="weixin_pay">微信支付</button>  
+<button type="primary"  bindtap="weixin_pay">微信支付</button>  
 
 
 
