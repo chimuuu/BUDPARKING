@@ -24,14 +24,9 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../records/records'
       
     })
-  },
-  Parking_record:function(){
-    wx.navigateTo({
-      url: '../Parking_record/Parking_record',
-     })
   },
   Time_fee:function(){
     wx.navigateTo({

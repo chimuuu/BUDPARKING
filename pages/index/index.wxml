@@ -13,11 +13,8 @@
 
 <view class="userinfo">
       <view bindtap="choose_image" >
-      <button type="primary" hover-class="button-hover" >扫码停车</button>
+      <button type="primary" >扫码停车</button>
       </view>
-      
-      <view bindtap="Parking_record">
-      <button type="warn">我的记录</button>
-      </view>
+
   </view>
 
