@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/records/records",
     "pages/about/about",
     "pages/Time_fee/Time_fee",
-    "pages/Time_fee/succeed_pay/succeed_pay",
-    "pages/Parking_record/Parking_record"
+    "pages/Time_fee/bill_pay/bill_pay",
+    "pages/Time_fee/bill_pay/succeed_pay/succeed_pay"
+   
   ],
   "window": {
     "enablePullDownRefresh": true,
@@ -24,21 +25,21 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/tabbar1.png",
-        "selectedIconPath": "images/tabbar1.png"
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_on.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志",
-        "iconPath": "images/tabbar2.png",
+        "pagePath": "pages/records/records",
+        "text": "我的停车",
+        "iconPath": "images/find.png",
         "iconSize": "30",
-        "selectedIconPath": "images/tabbar2.png"
+        "selectedIconPath": "images/find_on.png"
       },
       {
         "pagePath": "pages/about/about",
-        "text": "关于萌芽停车",
-        "iconPath": "images/tabbar3.png",
-        "selectedIconPath": "images/tabbar3.png"
+        "text": "说明",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_on.png"
       }
     ]
   },
