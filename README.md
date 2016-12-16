@@ -21,20 +21,21 @@
 ![](https://github.com/chimuuu/Images/blob/master/2.png)
 ##3.创建项目
 添加你自己的AppID,新建项目-BudParking
-![](https://github.com/chimuuu/Images/blob/master/3.png)
-![](https://github.com/chimuuu/Images/blob/master/4.png)
+![](https://github.com/chimuuu/Images/blob/master/3.png)![](https://github.com/chimuuu/Images/blob/master/4.png)
+
 ##4.注册LeanCloud账号
 传送https://leancloud.cn/
+![](https://github.com/chimuuu/Images/blob/master/5.png)
 ##5.配置LeanCloud应用
 登录https://leancloud.cn/applist.html#/apps在网站的「创建应用」中创建应用，在leancloud控制台配置AppID（小程序ID）和AppSecret（小程序密钥）。
-![](https://github.com/chimuuu/Images/blob/master/5.png)
-![](https://github.com/chimuuu/Images/blob/master/6.png)
+![](https://github.com/chimuuu/Images/blob/master/6.png)![](https://github.com/chimuuu/Images/blob/master/7.png)
+
 ##6.设置微信小程序域名白名单
 登录https://mp.weixin.qq.com，在网站的「设置」-「开发者设置」中，点击「服务器配置」下的「修改」链接，增加域名。具体域名通过https://leancloud.cn/docs/weapp-domains.html查询。同时在request合法域名下添加https://cli.im（这是在线对二维码进行在线识别的网站）。微信限制每月只能修改三次域名白名单。
-![](https://github.com/chimuuu/Images/blob/master/7.png)
+![](https://github.com/chimuuu/Images/blob/master/8.png)
 ##7.获取LeanCloud应用AppID和AppKey
 登录https://leancloud.cn/，在网站的「设置」-「应用Key」中，查看App ID，App Key
-![](https://github.com/chimuuu/Images/blob/master/8.png)
+![](https://github.com/chimuuu/Images/blob/master/9.png)
 ##8.OK！ 终于可以配置小程序了！
 1）将下载的av-weapp.js（https://unpkg.com/leancloud-storage@2.0.0-beta.6/dist/av-weapp.js）放到utils下<br>
 2)使用const AV = require('../../utils/av-weapp.js')；路径根据具体情况而定<br>
