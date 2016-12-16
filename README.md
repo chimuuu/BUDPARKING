@@ -8,7 +8,10 @@
 （5）基于LeanCloud的后台数据管理<br>
 （5）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息<br>
 ##Demo：<br>
-![](https://github.com/chimuuu/BUDPARKING/blob/master/images/1.png)
+1.扫码停车演示（停车时间，车位，计费）
+![](https://github.com/chimuuu/Images/blob/master/button3_1.png)
+2.用户停车记录查询（地图调用）
+![](https://github.com/chimuuu/Images/blob/master/record_1.png)
 <br>
 #一、配置所需工具:
 （1）微信小程序开发者账号<br>
