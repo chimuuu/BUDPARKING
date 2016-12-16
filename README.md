@@ -11,7 +11,7 @@
 ##1.扫码停车演示（停车时间，车位，计费）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
 ![](https://github.com/chimuuu/Images/blob/master/button3_1.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
-![](https://github.com/chimuuu/Images/blob/master/record_1.gif)<br><br>
+![](https://github.com/chimuuu/Images/blob/master/record.gif)<br><br>
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
 ![](https://github.com/chimuuu/Images/blob/master/about_all.gif)<br>
 ##4.后台数据管理（用户注册信息，用户使用记录）<br>
@@ -65,7 +65,7 @@
 注：在微信小程序中使用 LeanCloud详见 https://leancloud.cn/docs/weapp.html<br>
 #三、项目使用说明
 ##用户使用萌芽停车小程序操作流程如下：
-![](https://github.com/chimuuu/Images/blob/master/order.png)
+![](https://github.com/chimuuu/Images/blob/master/order1.png)
 ###1.用户通过扫描停车场二维码，获得空车位信息（初次使用会使用微信一键注册并登陆）
 ###2.停车开始计时，计费
 ###3.后台记录用户信息（使用记录，方便用户查询）
