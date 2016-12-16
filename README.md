@@ -1,9 +1,11 @@
 # 微信小程序-萌芽停车
-##停车收费的主要功能主要包括：
+（合作者chimuuu，CommunicationHeart，兰姐，小燕子）
+##小程序主要功能包括：
 （1）微信用户一键注册登录	
 （2）微信扫码停车<br>
 （3）停车计时计费<br>
 （4）微信支付（暂无：需要企业申请功能）<br>
+（5）基于LeanCloud的后台数据管理<br>
 （5）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息<br>
 ##Demo：<br>
 ![](https://github.com/chimuuu/BUDPARKING/blob/master/images/1.png)
