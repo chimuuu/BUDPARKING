@@ -1,31 +1,31 @@
 //app.js
+const AV = require('/utils/av-weapp');
+
 App({
 
   onLaunch: function () {
-    //调用API从本地缓存中获取数据
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+
+    AV.init({
+      appId: '6FR9SJu9wGBKXVN95sV48xNB-gzGzoHsz',
+      appKey: 'AIWvKAxqanTFEmMC8vfrtzw5',
+    });
+
+    AV.User.loginWithWeapp().then(user => {
+      this.globalData.user = user.toJSON();
+      this.globalData.userid = this.globalData.user.objectId;
+      console.log(this.globalData.userid)
+    }).catch(console.error);
+
   },
-  getUserInfo:function(cb){
-    var that = this
-    if(this.globalData.userInfo){
-      typeof cb == "function" && cb(this.globalData.userInfo)
-    }else{
-      //调用登录接口
-      wx.login({
-        success: function () {
-          wx.getUserInfo({
-            success: function (res) {
-              that.globalData.userInfo = res.userInfo
-              typeof cb == "function" && cb(that.globalData.userInfo)
-            }
-          })
-        }
-      })
-    }
-  },
+  
   globalData:{
-    userInfo:null
+    userInfo:null,
+    user:[],
+    userid:0,
+    state_flag:0,
+    timer_flag:0,
+    start_time:0,
+    start_data:{},
+    local:[],
   }
 })

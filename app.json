@@ -4,6 +4,7 @@
     "pages/records/records",
     "pages/about/about",
     "pages/Time_fee/Time_fee",
+    "pages/parkingLotMap/parkingLotMap",
     "pages/Time_fee/bill_pay/bill_pay",
     "pages/Time_fee/bill_pay/succeed_pay/succeed_pay"
    
