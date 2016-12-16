@@ -1,0 +1,12 @@
+.Bud_parking{
+    height: 250rpx;
+    width: 250rpx;
+    margin-top: 100rpx;
+    margin-bottom: 80rpx;
+}
+
+.container{
+    font-size:20pt;
+    padding: 20rpx;
+
+}

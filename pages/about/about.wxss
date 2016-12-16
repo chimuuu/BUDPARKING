@@ -1,21 +1,34 @@
-.about_userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .about_Bud_parking {
   display: flex; 
-  width: 180rpx;
-  height: 250rpx;
+  width: 300rpx;
+  height: 300rpx;
   padding: 0rpx;
-  border-radius: 30%;  
 }
-.bg_container {
+.about_text{
+
+  font-size: 50rpx;
+   margin-top: 25rpx;
+   margin-bottom: 5rpx;
+}
+page{  
+  
+   background-image: url(../../images/grass_car.png),url(../../images/cloud.png);
+   background-color: #CAFFFF;
+    background-repeat: no-repeat,no-repeat;
+    background-position: bottom center, 70% 30%;
+}
+
+
+    
+
+
+/*.bg_container {
     background: #eee;
     background-size: cover;
     background-image: url(../images/bg.png);
-}
-.container{
+}*/
+
+/*.container{
   height: 100%;
   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
   display: flex;
@@ -25,4 +38,4 @@
   justify-content: space-between;
   padding: 100rpx 0;
   box-sizing: border-box;
-}
+}*/

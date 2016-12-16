@@ -1,17 +1,20 @@
-
-<text  class="time_fee_container">{{Timer}}</text>
-
-
-<view  class="time_fee_container">计费：{{total_cost}} 元 </view>
-
-
-
-<text class="time_fee_container">二维码凭证：{{qrcode}}</text>
-
-<text  class="time_record">{{start_time}}</text>
-
-<button type="primary"  bindtap="weixin_pay">微信支付</button>  
-
-
-
-
+<!--pages/Time_fee/Time_fee.wxml-->
+<view>
+    <view class="Grayboder" >
+        <view class="Timer-view" >
+            <view class="Timer-header">停车时间</view>
+            <view class="Timer-Text">{{Timer}}</view>
+            <view class="park-info">
+                <text>{{start_time}}\t</text>
+                <text>车位：{{mlocation}}</text>
+            </view>
+        </view>
+        <view class="Fee-view">
+            <view class="Fee-header">当前费用</view>
+            <view class="Fee-Text">￥{{total_cost}}</view>
+        </view>
+    </view>
+</view>
+<view class="pay-btn">
+    <button type="primary" bindtap="weixin_pay">微信支付</button>  
+</view>

@@ -1,0 +1,20 @@
+
+<!--pages/ParkingRecord/ParkingRecord.wxml-->
+<scroll-view>
+  <view class="list-view" wx:for="{{array}}" wx:for-index="key">
+    <view id="{{key}}" bindtap="clickitem" class="bottomGrayboder list-view-item">
+      <view class="clock_group" style="flex-direction:row;">
+        <image class="clock" src="../../images/clock.png" ></image>
+        <view class="time-view-padding">{{item.start_time}}</view>
+      </view>
+      <view >
+          <view class="text-view">停车消费</view>  
+          <view class="money-text">￥{{item.total_cost}}</view>  
+          <view class="text-view" >停车位置</view>  
+          <view class="local-view">{{item.local}}</view>
+      </view>
+      <view class="Timer-view" >停车时长</view>  
+      <view class="Timer-view">{{item.Timer}}</view>
+    </view>
+  </view>
+</scroll-view>

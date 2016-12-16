@@ -1,51 +1,60 @@
 /**index.wxss**/
 
-page {
+/*page {
   display: block;
   min-height: 100%;
-  background-color:white;
+  background-color:lightgreen;
+}*/
+page{  
+  
+   background-image: url(../../images/grass_car.png),url(../../images/cloud.png);
+   background-color: #CAFFFF;
+    background-repeat: no-repeat,no-repeat;
+    background-position: bottom center, 70% 30%;
 }
-.userinfo {
+.userinfo1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.userinfo-nickname {
-  color: #aaa;
-}
-.usermotto {
-  margin-top: 200px;
-}
 
-.container_index {
-  /*background: rgba(255,255,25,.5);*/
-  height: 100%;
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10rpx 0;
-  box-sizing: border-box;
-}
 .Bud_parking {
-  background: rgba(255,255,0,.5);
-  display: flex; 
-  width: 260rpx;
-  height: 400rpx;
-  /*margin: 0rpx;*/
+  width: 290rpx;
+  height: 310rpx;
   border-radius: 10%;  
+  margin-bottom: 10rpx;
+  margin-top:0px;
+  
 }
-
-.container{  
-  height: 650px;
+.userinfo2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 5rpx;
+   margin-bottom: 5rpx;
 }
-.slide-image{
+.slide-image{ 
   padding: 0rpx ;
   display: felx;
   height:240rpx;
   width:100%;  
 }
-.button-hover{
-  background-color: blue;
-}
 
+
+.sao_ma {
+    margin-top: 40rpx;
+    background-color: #00DB00;
+
+    border-radius: 50%;
+    font-family:宋体;
+    font-weight: bold;
+    text-align:center; 
+    font-size:35rpx;
+    color:#272727;
+    border:solid 5px #93FF93;
+    padding-left: 0rpx;
+    padding-right:0rpx;
+    padding-top:30rpx; 
+    padding-bottom:30rpx;
+    
+}

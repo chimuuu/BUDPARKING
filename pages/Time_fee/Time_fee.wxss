@@ -1,31 +1,52 @@
-.time_fee_container {
-  height: 100%;
-  display: flex;
-  font-size: 25px;
-  color:orangered;
-  background: rgba(255,255,25,.5);
-  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30rpx 0;
-  box-sizing: border-box;
+/* pages/Time_fee/Time_fee.wxss */
+.Grayboder{
+    align-items: center;
+    border-bottom: 2px solid rgb(237, 237, 237);
+    border-top: 2px solid rgb(237, 237, 237);
+    border-left: 2px solid rgb(237, 237, 237);
+    border-right: 2px solid rgb(237, 237, 237);
+    border-radius: 7px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    }
+.Timer-view{
+    text-align: center;
+    font-family: 微软雅黑;
 }
-.time_record {
-  height: 100%;
-  display: flex;
-  font-size: 18px;
-  color:blue;
-  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30rpx 0;
-  box-sizing: border-box;
-}  
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Timer-header{
+    margin-top: 30px;
+    margin-bottom: 27px;
+    font-size: 24px;
 }
-
+.Timer-Text{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Fee-view{
+    text-align: center;
+    background-color: antiquewhite;
+    color: gray;
+    font-family: 微软雅黑;
+}
+.Fee-header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.Fee-Text{
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+.pay-btn {
+    margin-top: 21px;
+    margin-left: 8px;
+    margin-right: 8px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 微软雅黑;
+}
+.park-info{
+    margin-bottom: 20px;
+    font-family: 微软雅黑;
+}

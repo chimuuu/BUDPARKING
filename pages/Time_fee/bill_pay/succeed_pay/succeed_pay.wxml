@@ -1,0 +1,8 @@
+<view class="container">
+<view >
+  <image class="Bud_parking" src="../../../../images/fee.png" ></image>
+</view>
+
+<text>付款成功</text>
+<text>谢谢使用 BudParking!</text>
+</view>

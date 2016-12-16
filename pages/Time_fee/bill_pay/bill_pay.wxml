@@ -1,0 +1,19 @@
+<!--<view class="container">
+<view class="userinfo">
+  <image class="Bud_parking" src="../../../images/bingo.jpg" ></image>
+</view>
+
+<text>付款成功，谢谢使用 BudParking</text>
+</view>-->
+
+
+<view class="password_info">
+  <input  placeholder="请输入付款密码" password="true" /> 
+</view>
+
+<view  bindtap="weixin_ensure_pay" class="button_bill">
+  <button type="primary">确定</button>
+</view>
+
+
+

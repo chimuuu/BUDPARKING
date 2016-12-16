@@ -3,5 +3,5 @@
   <view class="container">
     <image class="about_Bud_parking" src="../../images/logo.png" ></image>
   
-    <text>当前版本 V0.0.1</text>
+    <text class="about_text">当前版本 V1.0.1</text>
 </view>

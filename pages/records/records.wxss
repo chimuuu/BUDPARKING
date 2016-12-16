@@ -1,0 +1,55 @@
+/* pages/records/records.wxss */
+/* pages/ParkingRecord/ParkingRecord.wxss */
+.list-view{
+    margin-bottom: 2px
+}
+.list-view-item{
+    margin-left: 7px; 
+    margin-right: 7px;
+    padding: 4px 6px 4px;
+    background: aliceblue;
+    border-radius: 6px;
+    font-family: 微软雅黑;
+}
+.bottomGrayboder{
+    border-bottom: 2px solid rgb(237, 237, 237);
+    border-bottom-color: rgba(237,237,237,1); 
+}
+.time-view-padding{
+    padding-bottom: 3px;
+}
+.text-view{
+    color: gray;
+    font-size: 13px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.money-text{
+    color: gold;
+    font-size: 27px;
+    padding-right: 18px;
+    display: inline-block;
+}
+.local-view{
+    color: black;
+    font-size: 27px;
+    padding-right: 1px;
+    display: inline-block;
+}
+.Timer-view{
+    color: black;
+    font-size: 15px;
+    padding-right: 18px;
+    display: inline-block;
+    font-family: 微软雅黑;
+}
+.clock_group{
+    display:flex;
+}
+.clock{
+    height: 30rpx;
+    width: 30rpx;
+    margin-top: 10rpx;
+    margin-right: 20rpx;
+    vertical-align: center;
+}
