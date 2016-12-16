@@ -6,8 +6,11 @@
 （3）停车计时计费<br>
 （4）微信支付演示（暂无：这需要企业身份申请开通）<br>
 （5）基于LeanCloud的后台数据管理<br>
-（5）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据）<br>
-#一、Demo：
+（6）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据实时刷新）<br>
+##停车位信息采用Pyhton生成的二维码（带BudParking-logo）
+![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
+代码：https://github.com/chimuuu/qrcode-python
+#一、Demo
 ##1.扫码停车演示（停车时间，车位，计费）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
 ![](https://github.com/chimuuu/Images/blob/master/button3_1.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
