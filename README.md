@@ -7,7 +7,7 @@
 （4）微信支付演示（暂无：这需要企业身份申请开通）<br>
 （5）基于LeanCloud的后台数据管理<br>
 （5）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据）<br>
-#Demo：
+#一、Demo：
 ##1.扫码停车演示（停车时间，车位，计费）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
 ![](https://github.com/chimuuu/Images/blob/master/button3_1.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
@@ -18,7 +18,7 @@
 ![](https://github.com/chimuuu/Images/blob/master/user.png)<br>
 ![](https://github.com/chimuuu/Images/blob/master/houtai.png)<br>
 
-#一、配置所需工具:
+#二、配置所需工具:
 （1）微信小程序开发者账号<br>
 （2）微信web开发者工具<br>
 （3）LeanCloud帐号<br>
@@ -63,3 +63,11 @@
     appKey: '你的LeanCloud-appKey',<br>
     });<br>
 注：在微信小程序中使用 LeanCloud详见 https://leancloud.cn/docs/weapp.html<br>
+#三、项目使用说明
+##用户使用萌芽停车小程序操作流程如下：
+![](https://github.com/chimuuu/Images/blob/master/order.png)
+##1.用户通过扫描停车场二维码，获得空车位信息（初次使用会使用微信一键注册并登陆）
+##2.停车开始计时，计费
+##3.后台记录用户信息（使用记录，方便用户查询）
+##4.停车结束后，用户微信支付<br>
+随着微信平台开放程度不断提升， “微信智慧生活”在不同行业的解决方案，已经给很多企业带来巨大的移动互联网变革。我们的基于LeanCloud的停车收费微信小程序，可以很好的解决繁琐的停车过程，方便快捷，符合市场需求，并且停车小程序功能完整，具有很好的应用前景。
