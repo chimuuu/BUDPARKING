@@ -6,8 +6,8 @@ App({
   onLaunch: function () {
 
     AV.init({
-      appId: '6FR9SJu9wGBKXVN95sV48xNB-gzGzoHsz',
-      appKey: 'AIWvKAxqanTFEmMC8vfrtzw5',
+      appId: '换成你的LeanCloud-appID',
+      appKey: '换成你的LeanCloud-appKey',
     });
 
     AV.User.loginWithWeapp().then(user => {
