@@ -12,7 +12,7 @@
 代码：https://github.com/chimuuu/qrcode-python
 #一、Demo
 ##1.扫码停车演示（停车时间，车位，计费）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
-![](https://github.com/chimuuu/Images/blob/master/button3_1.gif)<br>
+![](https://github.com/chimuuu/Images/blob/master/button.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
 ![](https://github.com/chimuuu/Images/blob/master/record.gif)<br>
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
