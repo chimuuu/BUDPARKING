@@ -2,6 +2,10 @@
 <view>
     <view class="Grayboder" >
         <view class="Timer-view" >
+
+           <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+            <view>{{nickName}}</view>
+
             <view class="Timer-header">停车时间</view>
             <view class="Timer-Text">{{Timer}}</view>
             <view class="park-info">

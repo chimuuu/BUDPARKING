@@ -135,7 +135,18 @@ Page({
 				}
 			})
 		}
-
+		var that = this
+		wx.getUserInfo({
+			success: function (res) {
+				var userInfo = res.userInfo
+				var nickName = userInfo.nickName
+				var avatarUrl = userInfo.avatarUrl
+				that.setData({
+					avatarUrl:avatarUrl,
+					nickName:nickName
+				})
+		}
+	})
 	},
 	weixin_pay: function () {
 		//保留当前页面
