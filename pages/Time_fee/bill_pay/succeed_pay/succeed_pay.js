@@ -44,4 +44,11 @@ Page({
       console.error('新对象创建失败:, with error message: ' + error.message);
     })
   },
+  onShareAppMessage: function () {
+    return {
+      title: '萌芽停車',
+      desc: '便捷停車！！！',
+      // path: '/pages/Time_fee/bill_pay/user?id=123'
+    }
+  }
 })
