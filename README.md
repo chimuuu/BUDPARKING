@@ -3,16 +3,17 @@
 ##小程序主要功能包括：
 （1）微信用户一键注册登录	
 （2）微信扫码停车<br>
-（3）停车计时计费<br>
+（3）停车计时计费（带有使用者头像及昵称）<br>
 （4）微信支付演示（暂无：这需要企业身份申请开通）<br>
 （5）基于LeanCloud的后台数据管理<br>
 （6）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据实时刷新）<br>
+（7）新添加小程序分享功能<br>
 ##停车位信息采用Pyhton生成的二维码（带BudParking-logo）
 ![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
 代码：https://github.com/chimuuu/qrcode-python
 #一、Demo
-##1.扫码停车演示（停车时间，车位，计费）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
-![](https://github.com/chimuuu/Images/blob/master/button.gif)<br>
+##1.扫码停车演示（停车时间，车位，计费,用户头像及昵称显示）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
+![](https://github.com/chimuuu/Images/blob/master/button2.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
 ![](https://github.com/chimuuu/Images/blob/master/record.gif)<br>
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
@@ -51,7 +52,7 @@
 登录https://mp.weixin.qq.com，
 在网站的「设置」-「开发者设置」中，点击「服务器配置」下的「修改」链接，增加域名<br>
 具体域名通过https://leancloud.cn/docs/weapp-domains.html查询<br>
-同时在request合法域名下添加https://cli.im（这是在线对二维码进行在线识别的网站）<br>
+{同时在request合法域名下添加https://cli.im（这是在线对二维码进行在线识别的网站）}此功能已移除，采用了微信新开放的扫一扫API，提升了扫码体验<br>
 微信限制每月只能修改三次域名白名单<br>
 ![](https://github.com/chimuuu/Images/blob/master/8.png)
 ##7.获取LeanCloud应用AppID和AppKey
@@ -70,7 +71,7 @@
 ##用户使用萌芽停车小程序操作流程如下：
 ![](https://github.com/chimuuu/Images/blob/master/order1.png)
 ###1.用户通过扫描停车场二维码，获得空车位信息（初次使用会使用微信一键注册并登陆）
-###2.停车开始计时，计费
+###2.停车开始计时，计费，页面上方显示当前用户头像和昵称
 ###3.后台记录用户信息（使用记录，方便用户查询）
 ###4.停车结束后，用户微信支付<br>
 ###随着微信平台开放程度不断提升， “微信智慧生活”在不同行业的解决方案，已经给很多企业带来巨大的移动互联网变革。我们的基于LeanCloud的停车收费微信小程序，可以很好的解决繁琐的停车过程，方便快捷，符合市场需求，并且停车小程序功能完整，具有很好的应用前景。
