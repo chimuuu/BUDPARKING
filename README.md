@@ -12,13 +12,14 @@
 ![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
 代码：https://github.com/chimuuu/qrcode-python
 #一、Demo
-##1.扫码停车演示（停车时间，车位，计费,用户头像及昵称显示）-微信支付功能需要企业身份申请开通，所以只做了演示<br>
+##1.扫码停车演示（停车时间，车位，计费，用户头像及昵称显示，小程序分享功能）<br>
+    {微信支付功能需要企业身份申请开通，所以只做演示}<br>
 ![](https://github.com/chimuuu/Images/blob/master/button2.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
 ![](https://github.com/chimuuu/Images/blob/master/record.gif)<br>
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
 ![](https://github.com/chimuuu/Images/blob/master/about_all.gif)<br>
-##4.后台数据管理（用户注册信息，用户使用记录）<br>
+##4.后台数据管理（用户注册信息，用户查询自己的使用历史记录）<br>
 ![](https://github.com/chimuuu/Images/blob/master/user.png)<br>
 ![](https://github.com/chimuuu/Images/blob/master/houtai.png)<br>
 
