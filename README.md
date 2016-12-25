@@ -1,19 +1,19 @@
 # 微信小程序-萌芽停车
 （合作者chimuuu，CommunicationHeart，兰姐，小燕子）
 ##小程序主要功能包括：
-（1）微信用户一键注册登录	
+（1）微信用户一键注册登录	<br>
 （2）微信扫码停车<br>
 （3）停车计时计费（带有使用者头像及昵称）<br>
 （4）微信支付演示（暂无：这需要企业身份申请开通）<br>
 （5）基于LeanCloud的后台数据管理<br>
 （6）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据实时刷新）<br>
 （7）新添加小程序分享功能<br>
-##停车位信息采用Pyhton生成的二维码（带BudParking-logo）
+##停车位二维码生成器（带BudParking-logo）
 ![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
-代码：https://github.com/chimuuu/qrcode-python
+代码：https://github.com/chimuuu
 #一、Demo
 ##1.扫码停车演示（停车时间，车位，计费，用户头像及昵称显示，小程序分享功能）<br>
-    {微信支付功能需要企业身份申请开通，所以只做演示}<br>
+####(微信支付功能需要企业身份申请开通，所以只做演示）<br>
 ![](https://github.com/chimuuu/Images/blob/master/button2.gif)<br>
 ##2.用户停车记录查询（含地图查询）<br>
 ![](https://github.com/chimuuu/Images/blob/master/record.gif)<br>
@@ -21,8 +21,12 @@
 ![](https://github.com/chimuuu/Images/blob/master/about_all.gif)<br>
 ##4.后台数据管理（用户注册信息，用户查询自己的使用历史记录）<br>
 ![](https://github.com/chimuuu/Images/blob/master/user.png)<br>
+###注册用户信心管理
 ![](https://github.com/chimuuu/Images/blob/master/houtai.png)<br>
-
+###停车位数据及每个停车位的使用状态
+![](https://github.com/chimuuu/Images/blob/master/Parking_space.png)<br>
+##5.停车场二维码生成器（python写,带空余车位查询后用于生成二维码）
+![](https://github.com/chimuuu/Images/blob/master/qrcode_producer.png)<br>
 #二、配置所需工具:
 （1）微信小程序开发者账号<br>
 （2）微信web开发者工具<br>
@@ -38,7 +42,6 @@
 添加你自己的AppID,新建项目-BudParking
 ![](https://github.com/chimuuu/Images/blob/master/3.png)
 ![](https://github.com/chimuuu/Images/blob/master/4.png)
-
 ##4.注册LeanCloud账号
 传送https://leancloud.cn/
 ![](https://github.com/chimuuu/Images/blob/master/5.png)
