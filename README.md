@@ -8,7 +8,8 @@
 （5）基于LeanCloud的后台数据管理<br>
 （6）停车记录查询：停车开始时间，停车时长，费用，地理位置等信息（后台数据实时刷新）<br>
 （7）新添加小程序分享功能<br>
-##停车位二维码生成器（带BudParking-logo）
+（8）停车位二维码生成器（带BudParking-logo）<br>
+    注：{此功能不属于小程序，用于停车场的车位二维码生成，是停车系统的一部分}
 ![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
 代码：https://github.com/chimuuu
 #一、Demo
@@ -20,10 +21,11 @@
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
 ![](https://github.com/chimuuu/Images/blob/master/about_all.gif)<br>
 ##4.后台数据管理（用户注册信息，用户查询自己的使用历史记录）<br>
+###（1）注册用户信息管理
 ![](https://github.com/chimuuu/Images/blob/master/user.png)<br>
-###注册用户信心管理
+###（2）用户的使用历史记录
 ![](https://github.com/chimuuu/Images/blob/master/houtai.png)<br>
-###停车位数据及每个停车位的使用状态
+###（3）停车位数据及每个停车位的使用状态
 ![](https://github.com/chimuuu/Images/blob/master/Parking_space.png)<br>
 ##5.停车场二维码生成器（python写,带空余车位查询后用于生成二维码）
 ![](https://github.com/chimuuu/Images/blob/master/qrcode_producer.png)<br>
@@ -74,8 +76,9 @@
 #三、项目使用说明
 ##用户使用萌芽停车小程序操作流程如下：
 ![](https://github.com/chimuuu/Images/blob/master/order1.png)
-###1.用户通过扫描停车场二维码，获得空车位信息（初次使用会使用微信一键注册并登陆）
-###2.停车开始计时，计费，页面上方显示当前用户头像和昵称
-###3.后台记录用户信息（使用记录，方便用户查询）
+###1.用户通过扫描停车场二维码，获得空车位信息（初次使用会使用微信一键注册并登陆）<br>
+###2.停车开始计时，计费，页面上方显示当前用户头像和昵称<br>
+###3.后台记录用户信息（使用记录，方便用户查询）<br>
 ###4.停车结束后，用户微信支付<br>
+###5.用户可以查询自己的使用记录<br>
 ###随着微信平台开放程度不断提升， “微信智慧生活”在不同行业的解决方案，已经给很多企业带来巨大的移动互联网变革。我们的基于LeanCloud的停车收费微信小程序，可以很好的解决繁琐的停车过程，方便快捷，符合市场需求，并且停车小程序功能完整，具有很好的应用前景。
