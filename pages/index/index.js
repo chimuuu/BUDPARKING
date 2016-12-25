@@ -41,9 +41,15 @@ Page({
       wx.scanCode({
         success: (res) => {
           console.log(res)
+          app.globalData.objectID=res.result.slice(0,24)
+          console.log(app.globalData.objectID)
+          //扫码后更新停车位状态值
+          var Is_using = AV.Object.createWithoutData('Parking_space', app.globalData.objectID);
+          Is_using.set('Is_using', 1);
+          Is_using.save();
           wx.navigateTo({
             //携带二维码解析结果参数
-            url: '../Time_fee/Time_fee?qrcode=' + res.result,
+            url: '../Time_fee/Time_fee?qrcode=' + res.result.slice(24, 35),
           })
         }
       })
