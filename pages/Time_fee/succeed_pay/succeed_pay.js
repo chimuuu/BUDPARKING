@@ -43,6 +43,12 @@ Page({
       // 异常处理
       console.error('新对象创建失败:, with error message: ' + error.message);
     })
+    //付款后更新停车位状态值
+    var Is_using = AV.Object.createWithoutData('Parking_space', app.globalData.objectID);
+    Is_using.set('Is_using', 0);
+    Is_using.save();
+
+
   },
   onShareAppMessage: function () {
     return {
