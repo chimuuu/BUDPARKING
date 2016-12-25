@@ -21,11 +21,11 @@
 ##3.三个一级界面（主界面，历史记录查询界面，版本界面）<br>
 ![](https://github.com/chimuuu/Images/blob/master/about_all.gif)<br>
 ##4.后台数据管理（用户注册信息，用户查询自己的使用历史记录）<br>
-###（1）注册用户信息管理
+###（1）注册用户信息管理（来源于用户微信注册信息）
 ![](https://github.com/chimuuu/Images/blob/master/user.png)<br>
-###（2）用户的使用历史记录
+###（2）用户的使用历史记录（时间、地点、时长、费用以及车位等等）
 ![](https://github.com/chimuuu/Images/blob/master/houtai.png)<br>
-###（3）停车位数据及每个停车位的使用状态
+###（3）停车位数据及每个停车位的使用状态（是否正被使用-01表示）
 ![](https://github.com/chimuuu/Images/blob/master/Parking_space.png)<br>
 ##5.停车场二维码生成器（python写,带空余车位查询后用于生成二维码）
 ![](https://github.com/chimuuu/Images/blob/master/qrcode_producer.png)<br>
