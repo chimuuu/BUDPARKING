@@ -11,7 +11,7 @@
 （8）停车位二维码生成器（带BudParking-logo）<br>
     注：{此功能不属于小程序，用于停车场的车位二维码生成，是停车系统的一部分}
 ![](https://github.com/chimuuu/Images/blob/master/qrcode.png)<br>
-代码：https://github.com/chimuuu
+代码：https://github.com/chimuuu/qrcode-python
 #一、Demo
 ##1.扫码停车演示（停车时间，车位，计费，用户头像及昵称显示，小程序分享功能）<br>
 ####(微信支付功能需要企业身份申请开通，所以只做演示）<br>
