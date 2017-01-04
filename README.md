@@ -1,5 +1,7 @@
 # 微信小程序-萌芽停车
-（合作者chimuuu，CommunicationHeart，兰姐，小燕子）
+（Author：chimuuu，CommunicationHeart）
+##停车小程序项目结构图
+![](https://github.com/chimuuu/Images/blob/master/system_Budparking.png)<br>
 ##小程序主要功能包括：
 （1）微信用户一键注册登录	<br>
 （2）微信扫码停车<br>
